@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Engin-Regular";
+    src: local("Engin-Regular"),
+     url("./font/Engin-Regular.ttf") format("truetype");
+    font-weight: regular;
+   }
+   

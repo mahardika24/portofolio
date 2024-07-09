@@ -1,0 +1,62 @@
+
+body {
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+  }
+  .font-face-gm {
+    font-family: "Engin-Regular";
+  }
+  
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* ==== OVERLAY === */
+
+:root {
+  --line-spacing: 50px;
+  --line-thickness: 1.5px;
+  --line-color: rgba(0, 0, 0, 0.3); 
+}
+
+.overlaypattern {
+  width: 90%;
+  border: var(--line-thickness) solid var(--line-color);
+  height: 85vh;
+  background: 
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent calc(var(--line-spacing) - var(--line-thickness)),
+      var(--line-color) calc(var(--line-spacing) - var(--line-thickness)),
+      var(--line-color) var(--line-spacing)
+    ),
+    repeating-linear-gradient(
+      -90deg,
+      transparent,
+      transparent calc(var(--line-spacing) - var(--line-thickness)),
+      var(--line-color) calc(var(--line-spacing) - var(--line-thickness)),
+      var(--line-color) var(--line-spacing)
+    );
+}
+
+.overlaypattern2 {
+  width: 90%;
+  border: var(--line-thickness) solid rgb(255, 255, 255, 0.1);
+  height: 85vh;
+  background: 
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent calc(var(--line-spacing) - var(--line-thickness)),
+      rgb(255, 255, 255, 0.1) calc(var(--line-spacing) - var(--line-thickness)),
+      rgb(255, 255, 255, 0.1) var(--line-spacing)
+    ),
+    repeating-linear-gradient(
+      -90deg,
+      transparent,
+      transparent calc(var(--line-spacing) - var(--line-thickness)),
+      rgb(255, 255, 255, 0.1) calc(var(--line-spacing) - var(--line-thickness)),
+      rgb(255, 255, 255, 0.1) var(--line-spacing)
+    );
+}
