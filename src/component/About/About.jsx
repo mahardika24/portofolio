@@ -14,7 +14,7 @@ export default function About() {
         <>
 
             <div className='overlaypattern2 absolute border-t-0 border-b-0 translate-y-12 left-1/2 transform -translate-x-1/2'></div> 
-            <p className='text-white font-semibold text-3xl relative top-20 lg:pl-16 md:pl-10 max-sm:pl-5 max-md:pl-10 selection:bg-[#386661] selection:text-[#fff]'>About</p>
+            <p className='text-white font-semibold text-3xl relative top-20 lg:pl-16 md:pl-10 max-sm:pl-7 max-md:pl-10 selection:bg-[#386661] selection:text-[#fff]'>About</p>
                 
         <div ref={description} className={styles.description}>
             <div className={styles.body}>
@@ -26,7 +26,7 @@ export default function About() {
                 }
                 </p>
 
-        <div className='flex justify-between relative top-14 max-md:gap-5 max-md:flex-col'>
+        <div className='grid lg:grid-cols-3 justify-between md:gap-y-20 max-sm:gap-y-16 max-md:gap-y-20 md:grid-cols-2 max-sm:grid-cols-1  '>
             <div>
                 <span className={styles.subTittle}>. Experience</span>
                 <h1 className={styles.isi}>4+ Projects</h1>
@@ -39,9 +39,8 @@ export default function About() {
                 <span className={styles.subTittle}>. Location </span>
                 <h1 className={styles.isi}>Indonesia</h1>
             </div>
-            </div>
-
-
+        </div>
+            
             </div>
         </div>
 
